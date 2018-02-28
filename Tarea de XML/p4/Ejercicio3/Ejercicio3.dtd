@@ -1,0 +1,8 @@
+﻿<!ELEMENT artistas (artista+)>
+<!ELEMENT artista  (nombre,numeroMiembros, concierto+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT numeroMiembros (#PCDATA)>
+<!ELEMENT concierto (#PCDATA)>
+<!ATTLIST concierto fecha CDATA #REQUIRED>
+<!ATTLIST concierto ciudad CDATA #REQUIRED>
+<!ATTLIST concierto gira CDATA #REQUIRED>

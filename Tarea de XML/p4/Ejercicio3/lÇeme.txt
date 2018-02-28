@@ -1,0 +1,9 @@
+Se ha utizado Java, en Eclipse Oxygen.
+Las instrucciones son:
+	1. Seleccionar el .xml que contengan los artistas, con los conciertos.
+	2. Una vez que se ha seleccionado se muestran todos los conciertos de todos los artistas que tiene la agencia
+	de representantes (que simula la aplicación).
+	3. En el comboBox de arriba a la derecha contiene todos los artistas que representa la agencia, 
+	si seleccionas uno de ellos en el comboBox solo se mostrarán los conciertos de ese artista.
+	
+El xml utilizado es: Ejercicio3.xml 

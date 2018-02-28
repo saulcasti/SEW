@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ejercicio2 SYSTEM "Ejercicio2.dtd">
+<recetas>
+	<receta>
+		<nombre>Gazpacho</nombre>
+		<tipoPlato>Primer Plato</tipoPlato>
+		
+		<ingrediente cantidad="500" medida="gramos">Tomate maduro</ingrediente>
+		<ingrediente cantidad="500" medida="gramos">Pimiento Verde</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Ajo</ingrediente>
+		<ingrediente cantidad="1/2" medida="unidad">Pepino</ingrediente>
+		<ingrediente cantidad="0.1" medida="litro">Aceite de oliva</ingrediente>
+		<ingrediente cantidad="4" medida="cucharada">Vinagre de vino</ingrediente>
+		<ingrediente cantidad="1" medida="rebanada">Pan</ingrediente>
+		<ingrediente cantidad="1" medida="pizca">Sal fina</ingrediente>
+		
+		<calorias>162</calorias>
+		<paso>Triturar todos los ingredientes.</paso>
+		<paso>Meter en nevera.</paso>
+		<dificultad>Facil</dificultad>
+		<tiempoElaboracion>10</tiempoElaboracion>
+		<elementoUtilizado>Batidora</elementoUtilizado>
+		<origen>Karlos Arguiñano</origen>
+	</receta>
+	
+	<receta>
+		<nombre>Bizcocho</nombre>
+		<tipoPlato>Postre</tipoPlato>
+		
+		<ingrediente cantidad="3" medida="unidad">Huevos</ingrediente>
+		<ingrediente cantidad = "1" medida="unidad">Yogur de Limón</ingrediente>
+		<ingrediente cantidad = "250" medida="gramos">Azúcar</ingrediente>
+		<ingrediente cantidad = "375" medida="gramos">Harina</ingrediente>
+		<ingrediente cantidad = "0.2" medida="litro">Leche</ingrediente>
+		<ingrediente cantidad = "16" medida="gramos">Levadura</ingrediente>
+		<ingrediente cantidad = "1" medida="unidad">Limón</ingrediente>
+		<ingrediente cantidad = "1" medida="cucharada">Azúcar Glas</ingrediente>
+		<ingrediente cantidad = "1" medida="">Mantequilla</ingrediente>
+		
+		<calorias>297</calorias>
+		<paso>Casca los huevos, colócalos en un bol grande con el azúcar y bate bien con una varilla manual (si no tienes varilla, puedes utilizar una cuchara de madera).</paso>
+		<paso>Añade el yogur y el aceite y sigue batiendo. Limpia el limón y con un rallador, ralla la cáscara encima.</paso>
+		<paso>Tamiza (pasa por el colador para que coja aire), la levadura (o polvo para hornear) y la harina, sobre la masa y mezcla bien.</paso>
+		<paso>Unta un molde con mantequilla, espolvoréalo con harina y vierte dentro la masa. Introduce en el horno (previamente calentado) a 180ºC durante 40 minutos.</paso>
+		<paso>Apaga el horno, retira el bizcocho y deja que se temple. Pasa un cuchillo por los bordes del molde para sacarlo fácilmente y desmóldalo.</paso>
+		<paso>Espolvorea el bizcocho de yogur con un poco de azúcar glas y sirve.</paso>
+		
+		<dificultad>Medio</dificultad>
+		<tiempoElaboracion>60</tiempoElaboracion>
+		<elementoUtilizado>Batidora</elementoUtilizado>
+		<elementoUtilizado>Horno</elementoUtilizado>
+		<origen>Karlos Arguiñano</origen>
+	</receta>
+	
+	<receta>
+		<nombre>Bizcocho sin lacteos</nombre>
+		<tipoPlato>Postre</tipoPlato>
+		
+		<ingrediente cantidad="3" medida="unidad">Huevos</ingrediente>
+		<ingrediente cantidad = "1" medida="unidad">Yogur de Limón sin lactosa</ingrediente>
+		<ingrediente  cantidad = "250" medida="gramos">Azúcar</ingrediente>
+		<ingrediente cantidad = "375" medida="gramos">Harina</ingrediente>
+		<ingrediente cantidad = "16" medida="gramos">Levadura</ingrediente>
+		<ingrediente cantidad = "1" medida="unidad">Limón</ingrediente>
+		<ingrediente cantidad = "1" medida="cucharada">Azúcar Glas</ingrediente>
+		<ingrediente cantidad = "1" medida="">Mantequilla sin lactosa</ingrediente>
+		
+		<calorias>250</calorias>
+		<paso>Casca los huevos, colócalos en un bol grande con el azúcar y bate bien con una varilla manual (si no tienes varilla, puedes utilizar una cuchara de madera).</paso>
+		<paso>Añade el yogur y el aceite y sigue batiendo. Limpia el limón y con un rallador, ralla la cáscara encima.</paso>
+		<paso>Tamiza (pasa por el colador para que coja aire), la levadura (o polvo para hornear) y la harina, sobre la masa y mezcla bien.</paso>
+		<paso>Unta un molde con mantequilla, espolvoréalo con harina y vierte dentro la masa. Introduce en el horno (previamente calentado) a 180ºC durante 40 minutos.</paso>
+		<paso>Apaga el horno, retira el bizcocho y deja que se temple. Pasa un cuchillo por los bordes del molde para sacarlo fácilmente y desmóldalo.</paso>
+		<paso>Espolvorea el bizcocho de yogur con un poco de azúcar glas y sirve.</paso>
+		
+		<dificultad>Medio</dificultad>
+		<tiempoElaboracion>60</tiempoElaboracion>
+		<elementoUtilizado>Batidora</elementoUtilizado>
+		<elementoUtilizado>Horno</elementoUtilizado>
+		<origen>Karlos Arguiñano</origen>
+	</receta>
+	
+	<receta>
+		<nombre>Bizcocho ligth</nombre>
+		<tipoPlato>Postre</tipoPlato>
+		
+		<ingrediente cantidad="3" medida="unidad">Huevos</ingrediente>
+		<ingrediente cantidad = "1" medida="unidad">Yogur de Limón ligth</ingrediente>
+		<ingrediente  cantidad = "250" medida="gramos">Azúcar Moreno</ingrediente>
+		<ingrediente cantidad = "375" medida="gramos">Harina</ingrediente>
+		<ingrediente cantidad = "16" medida="gramos">Levadura</ingrediente>
+		<ingrediente cantidad = "1" medida="unidad">Limón</ingrediente>
+		<ingrediente cantidad = "1/2" medida="cucharada">Azúcar Glas</ingrediente>
+		<ingrediente cantidad = "1" medida="">Mantequilla ligth</ingrediente>
+		
+		<calorias> 100 kcal </calorias>
+		<paso>Casca los huevos, colócalos en un bol grande con el azúcar y bate bien con una varilla manual (si no tienes varilla, puedes utilizar una cuchara de madera).</paso>
+		<paso>Añade el yogur y el aceite y sigue batiendo. Limpia el limón y con un rallador, ralla la cáscara encima.</paso>
+		<paso>Tamiza (pasa por el colador para que coja aire), la levadura (o polvo para hornear) y la harina, sobre la masa y mezcla bien.</paso>
+		<paso>Unta un molde con mantequilla, espolvoréalo con harina y vierte dentro la masa. Introduce en el horno (previamente calentado) a 180ºC durante 40 minutos.</paso>
+		<paso>Apaga el horno, retira el bizcocho y deja que se temple. Pasa un cuchillo por los bordes del molde para sacarlo fácilmente y desmóldalo.</paso>
+		<paso>Espolvorea el bizcocho de yogur con un poco de azúcar glas y sirve.</paso>
+		
+		<dificultad>Medio</dificultad>
+		<tiempoElaboracion>60</tiempoElaboracion>
+		<elementoUtilizado>Batidora</elementoUtilizado>
+		<elementoUtilizado>Horno</elementoUtilizado>
+		<origen>Karlos Arguiñano</origen>
+	</receta>
+	
+	
+    
+    <receta>
+        <nombre>Cocido Madrileño</nombre>
+        <tipoPlato>Primer Plato</tipoPlato>
+        
+        <ingrediente cantidad="500" medida="gramos">Garbanzos</ingrediente>
+		<ingrediente cantidad="500" medida="gramos">Pollo</ingrediente>
+        <ingrediente cantidad="1/2" medida="unidad">Repollo</ingrediente>
+        <ingrediente cantidad="500" medida="gramos">Zanahorias pequeñas</ingrediente>
+        <ingrediente cantidad="6" medida="unidad">Patatas medianas</ingrediente>
+        <ingrediente cantidad="1/4" medida="unidad">Gallina</ingrediente>
+        <ingrediente cantidad="500" medida="gramos">Morcilla</ingrediente>
+        <ingrediente cantidad="2" medida="unidad">Huesos de caña</ingrediente>
+        <ingrediente cantidad="1" medida="unidad">Chorizo</ingrediente>
+        <ingrediente cantidad="1" medida="unidad">Punta de jamon serrano</ingrediente>
+        <ingrediente cantidad="150" medida="gramos">Tocino veteado</ingrediente>
+        <ingrediente cantidad="2" medida="puñados">Fideos</ingrediente>
+        
+        
+        <calorias>1200</calorias>
+        <paso>Poner los garbanzos a remojo la víspera, en agua templada con una cucharada de sal gorda y un poquito de bicarbonato.</paso>
+        <paso>En una olla grande con agua fría abundante, poner la carne, los huesos atados para que no se salga el tuétano, el tocino, el jamón y la gallina con un poco de sal. Poner a calentar y cuando empiece a hervir, espumar bien y añadir los garbanzos bien escurridos y pasados por agua caliente, para que no rompan el hervor (es conveniente meterlos en una red especial para que no se desparramen). Cuando rompa el hervor, bajar el fuego para que cueza lentamente.</paso>
+        <paso>El cocido deberá cocer unas 3 horas y media, espumándolo de vez en cuando. Una hora antes de que acabe la cocción, añadir las zanahorias partidas por la mitad a lo largo y 1/2 hora después las patatas peladas y lavadas.</paso>
+        <paso>El repollo se pica, se lava, y se cuece aparte, alrededor de 35 minutos. En el momento de servir se rehoga, si se quiere, en una sartén con un par de dientes de ajo previamente dorados.</paso>
+        <paso>El chorizo se puede poner a cocer con el repollo y de esta forma se evita que se engrase tanto el caldo.</paso>
+        <paso>La morcilla se cuece sola en un cacito, o bien si se prefiere, se corta en rodaja y se fríe.</paso>
+        <paso>Una vez terminado de cocer el cocido, se separa el caldo necesario para sopa, dejando algo en la olla para que las carnes no se enfríen ni se sequen. Si se quiere tener más sopa, se puede retirar algo de caldo a mitad de la cocción y añadirle agua caliente.</paso>
+        <paso>Para la sopa, poner a cocer durante 15 minutos con los fideos, el caldo que tengamos reservado para la sopa y servir aparte en una sopera.</paso>
+        <paso>En una fuente se pone la carne partida en trozos, la gallina, el chorizo, la morcilla, el jamón, el tocino y el tuétano.</paso>
+        <paso>En otra bandeja se ponen los garbanzos, la verdura y las patatas.</paso>
+        <paso>Para hacer la bola, poner en una ensaladera el pan desmigajado, los huevos, el tocino y el ajo ambos picados, el perejil y dos o tres cucharadas de caldo. Se remueve bien y se forma una croqueta grande, se pasa por harina y se fríe. Una vez dorada, se echa al cocido 1/2 hora. Se sirve partida en rodajas en la bandeja de la carne.</paso>
+        <dificultad>Medio</dificultad>
+        <tiempoElaboracion>120</tiempoElaboracion>
+		<elementoUtilizado>Olla a presión</elementoUtilizado>
+		<origen>Ruta del Cocido Madrileño</origen>
+        
+    </receta>
+    
+    <receta>
+        <nombre>Hamburguesa</nombre>
+        <tipoPlato>Segundo Plato</tipoPlato>
+        
+        <ingrediente cantidad="1000" medida="gramos">Carne</ingrediente>
+        <ingrediente cantidad="7" medida="unidad">Panes de Hamburguesa</ingrediente>
+        <ingrediente cantidad="2" medida="unidad">Cebolla Picada</ingrediente>
+        <ingrediente cantidad="3" medida="unidad">Dientes de ajo picados</ingrediente>
+        <ingrediente cantidad="2" medida="cucharada">Mostaza</ingrediente>
+        <ingrediente cantidad="3" medida="cucharada">Perejil picado</ingrediente>
+        <ingrediente cantidad="1" medida="cucharada">Aíi Molido</ingrediente>
+        <ingrediente cantidad="6" medida="unidad">Queso</ingrediente>
+        
+        <calorias>295</calorias>
+        <paso>En un bowl unir la carne con la cebolla picada, el ajo, la mostaza, el perejil y el ají molido. Condimentar con sal y pimienta. Unir todos	los ingredientes hasta lograr una preparacion homogenea.</paso>
+        <paso>Armar las hamburguesa disponiendo sobre un molde una buena porción y con ayuda de una cuchara presionar hasta lograr la altura deseada.</paso>
+        <paso>Cocinar en sartén o grilla por ambos lados. Llevar a una placa para horno, cubrir con fetas de queso cheddar y llevar a horno caliente hasta fundir el queso y terminar su cocción.	Sellar las fetas de panceta para que queden crujientes.</paso>
+        <paso>Para hacer el aderezo mezclar en un bowl todos los ingredientes.</paso>
+        <paso>Armar las hamburguesas incorporando rodajas de tomate, lechuga y todos los ingredientes. Acompaña con papas fritas</paso>
+        <dificultad>Medio</dificultad>
+        <tiempoElaboracion>45</tiempoElaboracion>
+		<elementoUtilizado>Sarten</elementoUtilizado>
+		<origen>Tastemade</origen>
+        
+    </receta>
+    
+     <receta>
+        <nombre>Hamburguesa Vegetariana de frigol negro</nombre>
+        <tipoPlato>Segundo Plato</tipoPlato>
+        
+        <ingrediente cantidad="3" medida="unidad">Frijoles negros</ingrediente>
+         <ingrediente cantidad="1" medida="unidad">Huevo</ingrediente>
+         <ingrediente cantidad ="1/2" medida="unidad">Cebolla amarilla en pedazos</ingrediente>
+         <ingrediente cantidad="3" medida="unidad">Dientes de ajo triturado</ingrediente>
+         <ingrediente cantidad="1/2" medida="unidad">Pimiento verde</ingrediente>
+         <ingrediente cantidad="1" medida="cucharada">comino</ingrediente>
+         <ingrediente cantidad="1/4" medida="cucharada">Sal</ingrediente>
+         <ingrediente cantidad="1/4" medida="cucharada">Pimienta</ingrediente>
+         <ingrediente cantidad="1" medida="cucharada">Salasa de chile con ajo</ingrediente>
+         <ingrediente cantidad="1/2" medida="taza">Pan molido</ingrediente>
+         <ingrediente cantidad="1"  medida="unidad">Bollo</ingrediente>
+        
+        <calorias>177</calorias>
+        <paso>Precalentar el horno a 200°C</paso>
+         <paso>Mezclar los frijoles con el huevo, hasta conseguir una pasta espesa</paso>
+         <paso> Combinar la cebolla, el ajo y el pimiento verde en un procesador de alimentos, y dejar que funcione durante 30 segundos</paso>
+         <paso>Vertir los ingredientes en un tazón para mezclar</paso>
+         <paso>Después, añadir el comino, la pimienta, la salsa de ajo con chile y el pan molido</paso>
+         <paso>Y hasta que la mezclar se homogenice, tomar algunos pedazos para moldear un círculo. Cada círculo, cocinarlo durante 10 minutos</paso>
+         <paso>Servirlo con los condimentos de la elección</paso>
+        <dificultad>Medio</dificultad>
+        <tiempoElaboracion>40</tiempoElaboracion>
+		<elementoUtilizado>Sartén</elementoUtilizado>
+		<origen>Ecoosfera</origen>
+        
+    </receta>
+    
+    <receta>
+        <nombre>Bolitas energéticas de avena</nombre>
+        <tipoPlato>Postre</tipoPlato>
+        
+        <ingrediente cantidad="1" medida="taza">Avena</ingrediente>
+         <ingrediente cantidad="1/2" medida="taza">Mantequilla</ingrediente>
+         <ingrediente cantidad ="1/2" medida="taza">Coco rallado</ingrediente>
+         <ingrediente cantidad="1/3" medida="taza">Miel</ingrediente>
+         <ingrediente cantidad="1" medida="cucharada">Esencia de vainilla</ingrediente>
+         <ingrediente cantidad="1/2" medida="taza">Semillas de chía</ingrediente>
+         <ingrediente cantidad="1/2" medida="taza">Almendra</ingrediente>
+         
+        
+        <calorias>400</calorias>
+        <paso>Mezclar todos los ingredientes en un recipiente hasta conseguir que todos estén integrados en una mezcla homogénea fácil de manejar.</paso>
+         <paso>Cubrir la mezcla y llevar al refrigerador por aproximadamente media hora.Cubrir la mezcla y llevar al refrigerador por aproximadamente media hora.</paso>
+         <paso> Transcurrido el tiempo indicado, retirar del refrigerador y formar bolitas de tamaño regular. Si se desea, se puede añadir una almendra dentro de cada bolita como si se tratase de la decoración.</paso>
+         <paso>No se necesitan más pasos, las bolitas energéticas ya están listas para ser consumidas. Estas pueden tener una duración de hasta siete días si se guarda en un recipiente tapado dentro del refrigerador.</paso>
+         
+        <dificultad>Medio</dificultad>
+		<elementoUtilizado>Sartén</elementoUtilizado>
+        <tiempoElaboracion>20</tiempoElaboracion>
+		<origen>recetascortas.com/</origen>
+        
+    </receta>
+	
+	<receta>
+		<nombre>Pasta con Salsa de Boniato, brócoli y Shiitake</nombre>
+		<tipoPlato>Primer Plato</tipoPlato>
+		
+		<ingrediente cantidad="200" medida="gramos">Pasta sin huevo</ingrediente>
+		<ingrediente cantidad="1" medida="taza">Leche de soja sin azucar</ingrediente>
+		<ingrediente cantidad="400" medida="gramos">Boniato</ingrediente>
+		<ingrediente cantidad="4" medida="puñado">Setas Shiitake</ingrediente>
+		<ingrediente cantidad="1" medida="cubo">Jengibre</ingrediente>
+		<ingrediente cantidad="2" medida="puñado">Brócoli</ingrediente>
+		<ingrediente cantidad="2" medida="unidad">Ajo</ingrediente>
+		<ingrediente cantidad="" medida="">Aceite de Oliva</ingrediente>
+		
+		<calorias>600</calorias>
+		
+		<paso>Cuece la pasta con un poco de sal, un ajo, laurel…</paso>
+		<paso>En la procesadora de alimentos añades el boniato hecho previamente al horno, el diente de ajo, los anacardos, un chorrito de aceite de oliva, la leche y la sal. Lo vas añadiento y triturando despacio</paso>
+		<paso>Mezcla la salsa con la pasta y procura que quede todo bien repartido y untado</paso>
+		<paso>Corta la albahaca fresca y añadela junto con los piñones enteros al momento de servir</paso>
+		<paso>No tiene más, sólo queda disfrutar </paso>
+		
+		<dificultad>Medio</dificultad>
+		<elementoUtilizado>Sartén</elementoUtilizado>
+		<tiempoElaboracion>50</tiempoElaboracion>
+		<origen>venganosunidos.es</origen>
+	</receta>
+	
+	<receta>
+		<nombre>Ensaladilla de bulgur</nombre>
+		<tipoPlato>Entrante</tipoPlato>
+		
+		<ingrediente cantidad="1" medida="vaso">Bulgur grueso</ingrediente>
+		<ingrediente cantidad="2.5" medida="vaso">Agua</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Tomate</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Cebolla</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Pimiento Verde</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Pimiento Rojo</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Zanahoria</ingrediente>
+		<ingrediente cantidad="" medida="">Aceite de Oliva</ingrediente>
+		
+		<calorias>300</calorias>
+		
+		<paso>Empezamos cociendo el bulgur y eso lo haremos como si fuese arroz, ponemos a calentar el agua en un cazo, cuando empiece a hervir añadimos una pizca de sal -no mucha, pues si es necesario ya rectificaremos el punto de sal al final-, y añadimos el bulgur. Esperamos a que rompa a hervir de nuevo y bajamos el fuego para mantener el hervor. Lo dejamos cocinando 20 minutos, aunque no está de más echar un vistazo a las instrucciones del paquete, que nos dirá el tiempo necesario para ese tamaño de grano.</paso>
+		<paso>Una vez cocido el bulgur, lo pasamos a un colador y lo enjuagamos bajo un chorro de agua fría para refrescarlo y cortar la cocción.</paso>
+		<paso>Mientras se está cociendo el bulgur, lavamos y pelamos las hortalizas que sea necesario pelar, las cortamos en trocitos pequeños junto con el perejil si se lo echamos, las ponemos en la misma fuente que vayamos a servir nuestra ensaladilla de bulgur, y aliñamos con sal, aceite de oliva virgen extra y vinagre.</paso>
+		<paso>Cuando esté listo el bulgur y lo hayamos refrescado completamente, lo añadimos sobre la vinagreta, mezclamos bien, rectificamos de sal si fuese necesario y servimos.</paso>
+		<paso>Podemos servir tal cual, o acompañada con un poco de mayonesa o veganesa, que yo os recomiendo servir aparte para que el que quiera se la sirva a su gusto, pues simplemente con la vinagreta ya está riquísima.</paso>
+		
+		<dificultad>Facil</dificultad>
+		<elementoUtilizado>Sartén</elementoUtilizado>
+		<tiempoElaboracion>20</tiempoElaboracion>
+		<origen>venganosunidos.es</origen>
+	</receta>
+	
+	<receta>
+		<nombre>Ensalada de peras glaseadas</nombre>
+		<tipoPlato>Entrante</tipoPlato>
+		
+		<ingrediente cantidad="1" medida="bolsa">Brotes tiernos</ingrediente>
+		<ingrediente cantidad="2.5" medida="cucharada">Salsa de soja</ingrediente>
+		<ingrediente cantidad="4" medida="unidad">Peras</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Pepino</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Lima</ingrediente>
+		<ingrediente cantidad="1" medida="unidad">Guindilla fresca o chile</ingrediente>
+		<ingrediente cantidad="" medida="">Aceite de Oliva</ingrediente>
+		
+		<calorias>200</calorias>
+		
+		<paso>Pelamos las peras con un pelador, las cortamos a la mitad y retiramos la parte de las semillas con ayuda de un sacabolas o una cucharilla.
+		</paso>
+		<paso>En una sartén a fuego fuerte ponemos a calentar el aceite de oliva virgen extra. Cuando esté caliente colocamos las peras con el corte hacia abajo y las cocinamos hasta que estén doradas.</paso>
+		<paso>Aparte mezclamos la miel con la salsa de soja, el jengibre rallado y unas cuantas rodajitas de guindilla o chile, añadimos la mezcla a la sartén, esperamos a que burbujee y damos un par de vueltas a las peras para que se embadurnen bien con la mezcla. Sacamos las peras de la sartén y las reservamos.</paso>
+		<paso>Sin limpiar la sartén, añadimos el zumo de la lima para desglasarla, esto es que mezclaremos el zumo con todo lo que quede en la sartén y rascaremos el fondo de esta hasta que quede todo bien integrado con el zumo. Esto será lo que usemos como aliño, así que cuando esté listo lo apartamos y reservamos.</paso>
+		<paso>Pelamos el pepino, lo cortamos en rebanadas y lo mezclamos con el aliño.</paso>
+		<paso>Preparamos la ensalada repartiendo los brotes tiernos, encima la mitad de las rodajas de pepino aliñadas y 4 mitades de pera en cada plato.</paso>
+		<paso>Para terminar, decoramos con el resto del chile cortado en rodajas finas.</paso>
+		<dificultad>Facil</dificultad>
+		<elementoUtilizado>Sartén</elementoUtilizado>
+		<tiempoElaboracion>20</tiempoElaboracion>
+		<origen>venganosunidos.es</origen>
+	</receta>
+	
+	<receta>
+		<nombre>Crackers de dos semillas. Antioxidantes muy crujientes</nombre>
+		<tipoPlato>Postre</tipoPlato>
+		
+		<ingrediente cantidad="285" medida="gramos">Zanahoria</ingrediente>
+		<ingrediente cantidad="55" medida="gramos">Semillas de chía molidas</ingrediente>
+		<ingrediente cantidad="30" medida="gramos">Pipas de calabaza</ingrediente>
+		<ingrediente cantidad="2" medida="cucharada">Perejil u orégano</ingrediente>
+		<ingrediente cantidad="0.25" medida="litros">Agua</ingrediente>
+		
+		<calorias>300</calorias>
+		
+		<paso>Tritura las semillas hasta obtener una harina, y luego añade la pulpa, el perejil y la sal.</paso>
+		<paso>Vuelve a triturar y ve añadiendo agua hasta que tengas una masa consistente. Si la pulpa está muy húmeda es posible que no necesites toda el agua.</paso>
+		<paso>Extiéndela sobre un papel de horno y marca la forma.</paso>
+		<paso>Si los quieres raw, pon la masa dentro de un deshidratador a 43°C durante 8 horas. Si no, hornea a 180°C durante unos 30 minutos y hornea otros 20 más por la otra cara.</paso>
+		<dificultad>Facil</dificultad>
+		<elementoUtilizado>Horno</elementoUtilizado>
+		<tiempoElaboracion>40</tiempoElaboracion>
+		<origen>venganosunidos.es</origen>
+	</receta>
+	
+	<receta>
+		<nombre>Crackers enzimáticos de zanahoria</nombre>
+		<tipoPlato>Postre</tipoPlato>
+		
+		<ingrediente cantidad="200" medida="gramos">Lino dorado</ingrediente>
+		<ingrediente cantidad="50" medida="gramos">Sesamo</ingrediente>
+		<ingrediente cantidad="600" medida="gramos">Zanahoria</ingrediente>
+		<ingrediente cantidad="0.5" medida="cucharada">Sal</ingrediente>
+		<ingrediente cantidad="0.06" medida="litros">Agua</ingrediente>
+		
+		<calorias>390</calorias>
+		
+		<paso>Tritúralas junto con el ajo, el aceite, la sal y el agua hasta obtener un paté.</paso>
+		<paso>Cada una por separado (de lino y de sésamo) con un mortero o con un molinillo de café, agrégalas a la mezcla.
+
+		Si no tienes lino dorado, puedes utilizar marrón, más fácil de encontrar, aunque, por su sabor y color, es preferible el primero.</paso>
+		<paso>Sobre papel de horno o las hojas de los deshidratadores (con un grosor de 0,5 a 1 cm). Marca la masa con las divisiones con la forma que desees dar a los crackers.
+
+		Deshidrátalas a 42°-45°C durante 12 horas. Dales la vuelta, retira el papel y déjalas unas 4 horas más hasta que queden crocantes.</paso>
+		<dificultad>Facil</dificultad>
+		<elementoUtilizado>Horno</elementoUtilizado>
+		<tiempoElaboracion>600</tiempoElaboracion>
+		<origen>venganosunidos.es</origen>
+	</receta>
+	
+	<receta>
+		<nombre>California roll</nombre>
+		<tipoPlato>Segundo Plato</tipoPlato>
+		
+		<ingrediente cantidad="300" medida="gramos">Arroz</ingrediente>
+		<ingrediente cantidad="400" medida="gramos">Agua</ingrediente>
+		<ingrediente cantidad="10" medida="gramos">Vinagre</ingrediente>
+		<ingrediente cantidad="0.075" medida="litro">Bebida vegetal</ingrediente>
+		
+		<calorias>600</calorias>
+		
+		<paso>El arroz: lávalo bien y llévalo a ebullición; luego, a fuego muy lento, 8 minutos. Déjalo reposar 12 más. Abanícalo (para enfriarlo), extiéndelo en una bandeja y mójalo con el vinagre. Resérvalo.</paso>
+		<paso>El interior: hidrata el alga y córtala al tamaño de la esterilla. Corta las zanahorias en cerillas y escáldalas. Enfríalas y macéralas en tamari unos minutos. Bate la almendra con la leche vegetal, el ajo, sal y pimienta, añade el zumo de limón y obtén una crema. Resérvala en una manga. Lava la escarola y déjala en agua fría. Resérvala en un táper envuelta en papel húmedo.</paso>
+		<paso>La mayonesa de wasabi: emulsiona todos los ingredientes juntos hasta obtener una mayonesa lisa y brillante. Resérvala en un biberón.</paso>
+		<paso>Montaje: coloca sobre una esterilla cubierta de film los trozos de lechuga de mar (o la placa de nori si no tienes lechuga). Coloca el arroz cubriendo toda el alga y presionando con las manos húmedas. Espolvorea sésamo por encima. Cubre con film estirado y coloca la otra esterilla encima. Sujeta ambas esterillas y dales la vuelta. Retira la esterilla superior. Coloca una línea de crema de almendras en el centro del alga y sobre ella una línea de zanahoria encurtida. Con cuidado, lleva la parte inferior de la esterilla al punto donde termina la zanahoria y, presionando, forma un círculo. Levanta cuidadosamente el extremo inferior de la esterilla y sigue rodando para formar el maki. Debe quedar bien firme.</paso>
+		<paso>Corte: para cortarlos, necesitas un cuchillo bien afilado y un trapo húmedo para ir retirando el almidón que queda en el mismo.</paso>
+		<paso>Servir: sirve los california rolls cortados con un punto de mayonesa de wasabi y un trozo de escarola sobre cada uno de ellos.</paso>
+		
+		<dificultad>Alta</dificultad>
+		<elementoUtilizado>Tabla</elementoUtilizado>
+		<tiempoElaboracion>60</tiempoElaboracion>
+		<origen>CuerpoMente</origen>
+	</receta>
+	
+	<receta>
+		<nombre>Paté de pipas de girasol y remolacha</nombre>
+		<tipoPlato>Segundo Plato</tipoPlato>
+		
+		<ingrediente cantidad="200" medida="gramos">Pipas</ingrediente>
+		<ingrediente cantidad="15" medida="gramos">Remolacha</ingrediente>
+		<ingrediente cantidad="0.5" medida="cucharada">Comino en polvo</ingrediente>
+		<ingrediente cantidad="0.060" medida="litro">Zumo de limón</ingrediente>
+		
+		<calorias>400</calorias>
+		
+		<paso>Remoja las pipas de girasol durante 3-8 horas para activarlas.</paso>
+		<paso>Ralla la remolacha en un rallador.</paso>
+		<paso>Pon la remolacha rallada, las pipas coladas y lavadas, el zumo de limón, la salsa tamari y el comino en el vaso de una batidora y bátelo hasta lograr una textura cremosa.</paso>
+		<dificultad>Facil</dificultad>
+		<elementoUtilizado>Rallador</elementoUtilizado>
+		<tiempoElaboracion>20</tiempoElaboracion>
+		<origen>CuerpoMente</origen>
+	</receta>
+</recetas>

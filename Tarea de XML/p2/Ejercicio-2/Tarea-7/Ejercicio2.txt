@@ -1,0 +1,6 @@
+La principales diferencias entre el XML Schema generado automáticamente
+y el generado manualmente, es que en el primero, el tipo de todos los atributos
+va a ser siempre string, lo que no siempre es correcto.
+En el generado manualmente tu especificas los tipos que quieras, es decir, a un atributo 
+llamado cantidad lo más posible es que el tipo sea un int o double en vez de un string como el del 
+generado automáticamente. 

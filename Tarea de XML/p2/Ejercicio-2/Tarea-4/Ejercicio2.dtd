@@ -1,0 +1,13 @@
+﻿<!ELEMENT recetas (receta+)>
+<!ELEMENT receta  (nombre, tipoPlato, ingrediente*, calorias?, paso+, dificultad, tiempoElaboracion, elementoUtilizado, origen)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipoPlato (#PCDATA)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>
+<!ELEMENT paso (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+<!ELEMENT tiempoElaboracion (#PCDATA)>
+<!ELEMENT elementoUtilizado (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ATTLIST ingrediente cantidad CDATA #REQUIRED>
+<!ATTLIST ingrediente medida CDATA #REQUIRED>

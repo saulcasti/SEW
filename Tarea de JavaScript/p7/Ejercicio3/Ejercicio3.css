@@ -1,0 +1,44 @@
+body{
+    text-align:center;
+}
+h1{
+    color:red;
+}
+h2{
+    text-align:center;
+    color:#0900e8;
+}
+h3{
+    text-align:center;
+    color:#e8aa00;
+}
+h4{
+    text-align:left;
+    color:#000000;
+}
+h5{
+    text-align:center;
+    color:#000000;
+}
+p{
+    
+     color:#000000; 
+    font: 200 100% Aria, sans-serif;
+}
+
+button{
+    
+    width: 20%;
+     background:#ffffff; 
+}
+footer{
+       margin-top:2em;
+    }
+footer a img{
+        height:31px; 
+        width:88px;
+    }
+ul{
+    text-align:left;
+    margin-right: 60%;
+}

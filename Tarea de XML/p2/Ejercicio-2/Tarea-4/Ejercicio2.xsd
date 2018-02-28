@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/Ejercicio2" elementFormDefault="qualified" targetNamespace="http://tempuri.org/Ejercicio2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="recetas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="receta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="receta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" />
+        <xs:element ref="tipoPlato" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ingrediente" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="calorias" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="paso" />
+        <xs:element ref="dificultad" />
+        <xs:element ref="tiempoElaboracion" />
+        <xs:element ref="elementoUtilizado" />
+        <xs:element ref="origen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string" />
+  <xs:element name="tipoPlato" type="xs:string" />
+  <xs:element name="ingrediente">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="cantidad" type="xs:double" use="required" />
+          <xs:attribute name="medida" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="calorias" type="xs:double" />
+  <xs:element name="paso" type="xs:string" />
+  <xs:element name="dificultad" type="xs:string" />
+  <xs:element name="tiempoElaboracion" type="xs:double" />
+  <xs:element name="elementoUtilizado" type="xs:string" />
+  <xs:element name="origen" type="xs:string" />
+</xs:schema>

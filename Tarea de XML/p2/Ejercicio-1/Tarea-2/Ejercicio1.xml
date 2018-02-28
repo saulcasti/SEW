@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ejercicio1 SYSTEM "Ejercicio1.dtd">
+<articulos>
+    <articulo isbn="ABSK78899299292" paginaI="1" paginaF="3">
+	<nombreRevista>Huffington Post</nombreRevista>
+	<numeroRevista>10</numeroRevista>
+    <contenido> Una encuesta realizada por la Facultad de Salud Pública de la Universidad de Harvard, Estados Unidos y publicada en enero de 2016, demostró que la gente está en contra de esta técnica. El 83% de los encuestados contestó que debe ser ilegal la manipulación de genes en un bebé para mejorar su inteligencia o características físicas. El 65% de los participantes declaró que la edición genética debe ser ilegal también si se aplicara para cambiar genes que confieren un riesgo para desarrollar alguna enfermedad grave.
+    Otra encuesta publicada en julio de 2016 y realizada por el Centro de Investigación Pew, Estados Unidos demostró que el 68% de los entrevistados está intranquilo con este tema, y más precisamente, la mayoría está preocupada (46%) y muy preocupada (22%). En cuanto a la posibilidad de utilizar esta técnica para solucionar un error en el genoma, y de esta manera evitar que un bebé sufra una enfermedad grave, las opiniones están divididas: 50% en contra, y 48% a favor.
+    </contenido>
+	<titulo>Bebés a la carta: ¿cuál es el límite de la ciencia?</titulo>
+    <autor correoElectro="jorgedotto@gmail.com">Jorge Dotto</autor>
+	<autor correoElectro="jones@gmail.com">Roman Jones</autor>
+    <resumen>Es frecuente escuchar la expresión "bebé a la carta" ahora que la genética y el ADN están de moda, para hacer referencia a la posibilidad de "diseñar" un bebé, aunque todavía no es técnicamente posible. Es un tema muy delicado y sensible. Pareciera que en este mundo interdependiente y moderno que estamos viviendo tener un bebé sería similar a ir a un restaurant y pedirle al mozo un bife de costilla "a punto" con papas fritas y una copa de vino tinto. Algo similar a: "Quiero una hija de 1.83 metros, cabello marrón, ojos marrones, simpática, con gran inteligencia emocional, deportista, que coma sano, que le guste la música, que sea abogada y que no sufra de depresión". ¿Está bien pensar en estos términos? ¿Llegaremos a esta situación en un futuro?</resumen>
+    <palabraClave>bebe</palabraClave>
+	<palabraClave>adn</palabraClave>
+	<palabraClave>avance</palabraClave>
+	<palabraClave>tecnología</palabraClave>
+    <anio>2015</anio>
+    </articulo>
+    
+    <articulo isbn="ABSK78899299802" paginaI="4" paginaF="10">
+	<nombreRevista>Huffington Post</nombreRevista>
+	<numeroRevista>30</numeroRevista>
+        <contenido>La Antártida está compuesta por unas enormes tierras baldías heladas cubiertas por la mayor capa de hielo del mundo. Esta capa de hielo contiene aproximadamente el 90% del agua dulce del planeta. Actúa como un enorme disipador de calor y su agua de deshielo impulsa la circulación oceánica mundial. Por tanto, su existencia es fundamental para el clima de la Tierra.
+        Lo que se conoce menos es que la Antártida también alberga varios volcanes activos y forma parte de una inmensa “provincia volcánica” que se extiende a lo largo de miles de kilómetros junto al borde occidental del continente. Aunque la provincia volcánica se conoce y se estudia desde hace décadas, recientemente los científicos han descubierto bajo el hielo unos 100 “nuevos” volcanes usando datos de satélites y un radar que penetra en el hielo para buscar picos escondidos.
+        Puede que estos volcanes bajo el hielo estén inactivos, pero ¿qué pasaría si los volcanes de la Antártida entrasen en actividad?
+        Nos podemos hacer una idea mirando al pasado. Uno de los volcanes de la Antártida, el Monte Takahe, se encuentra cerca del lejano centro de la Capa de Hielo Antártica Occidental. En un nuevo estudio, los científicos relacionan al Takahe con una serie de erupciones ricas en halógenos que consumen ozono que se produjeron hace unos 18.000 años. Estas erupciones, afirman, provocaron un antiguo agujero en el ozono, calentaron el hemisferio sur, lo que hizo que los glaciares se derritiesen, y contribuyeron a que terminase la última edad de hielo.
+        Este tipo de impacto medioambiental no es frecuente. Para que volviese a ocurrir otra vez, tendría que producirse una serie de erupciones, igual de ricas en halógenos, de uno o más volcanes que actualmente sobresalen por encima del hielo. Es poco probable que se dé este escenario, como muestra el estudio del Takahe, pero no imposible. Es más probable que uno o más de los numerosos volcanes subglaciales, algunos de los cuales se sabe que están activos, entren en erupción en algún momento desconocido en el futuro.
+        </contenido>
+		<titulo>¿Qué pasaría si los volcanes ‘helados’ de la Antártida entrasen en erupción?</titulo>
+        <autor correoElectro="jorgedotto@gmail.com">Jorge Dotto</autor>
+        <resumen>La erupción de numerosos volcanes con pocas décadas de diferencia entre cada una podría provocar un aumento del calentamiento</resumen>
+    <palabraClave>volcanes</palabraClave>
+	<palabraClave>ciencia</palabraClave>
+	<palabraClave>tierra</palabraClave>
+    <anio>2017</anio> 
+    
+    </articulo>
+	
+	<articulo isbn="ABSK7889920000" paginaI="10" paginaF="12">
+	<nombreRevista>Huffington Post</nombreRevista>
+	<numeroRevista>1</numeroRevista>
+	 
+        <contenido>El Tribunal Constitucional ha exigido este miércoles que el parlamento alemán reconozca legalmente el 
+		"tercer sexo" en los documentos administrativos, lo que convertiría a Alemania en el primer país europeo en ofrecer
+		oficialmente esa posibilidad. El Tribunal Constitucional, máxima jurisdicción alemana, ha emplazado a la cámara de diputados a
+		votar la legalización del "tercer sexo" en las actas de nacimiento junto a la mención "masculino" 
+		y "femenino" antes de finales de 2018, según la decisión consultada por la AFP.</contenido>
+		<titulo>El Constitucional alemán permite inscribir a personas de un tercer sexo en el registro civil</titulo>
+        <autor correoElectro="joseMendez@gmail.com">Jose Mendez</autor>
+        <resumen>Podrán inscribirse como "inter", "diverso" o cualquier otra "designación positiva del sexo".</resumen>
+    <palabraClave>alemania</palabraClave>
+	<palabraClave>transexual</palabraClave>
+	<palabraClave>constitucional</palabraClave>
+    <anio>2010</anio> 
+    
+    </articulo>
+	
+	<articulo isbn="ABSK7889920790" paginaI="1" paginaF="2">
+	<nombreRevista>eldiario.es</nombreRevista>
+	<numeroRevista>55</numeroRevista>
+    <contenido>La universidad española no es atractiva para los docentes extranjeros. Así se deduce de los datos recogidos por Eurydice,
+		una red dependiente de la Comisión Europea especializada en información sobre educación. Si en Reino Unido este colectivo supone el 27% 
+		de la plantilla académica y en Suiza el 43,5%; nuestro país se encuentra muy alejado de esos números, reduciéndose esta representación al
+		2,1% de los profesores.</contenido>
+		<titulo>Las universidades españolas carecen de atractivos para los profesores extranjeros</titulo>
+    <autor correoElectro="lauaraGalaup@gmail.com">Laura Galaup</autor>
+    <resumen>Solo el 2% de los docentes en España llegan de otro país mientras otros estados como Reino Unido tienen una tasa del 27% o Suiza del 43%</resumen>
+    <palabraClave>españa</palabraClave>
+	<palabraClave>universidad</palabraClave>
+	<palabraClave>profesores</palabraClave>
+    <anio>2014</anio> 
+    
+    </articulo>
+    
+	<articulo isbn="ABSK78899205750" paginaI="7" paginaF="8">
+	<nombreRevista>eldiario.es</nombreRevista>
+	<numeroRevista>1</numeroRevista>
+    <contenido>Llegó el día: el iPhone X ya genera grandes colas en todo el mundo y el hype que produce el teléfono de Apple solo es comparable al hype 
+	que genera todo lo relacionado con la marca. Entre las novedades más destacadas, su precio (1.160 euros) y el Face ID.</contenido>
+		<titulo>Los datos de tu cara serán accesibles para todas las empresas que se lo pidan a Apple</titulo>
+    <autor correoElectro="davidSaravia@gmail.com">David Saravia</autor>
+    <resumen>Los desarrolladores tendrán que pedirte permiso antes para acceder a los datos de tu cara contenidos en el Face ID del iPhone X</resumen>
+    <palabraClave>apple</palabraClave>
+	<palabraClave>cara</palabraClave>
+	<palabraClave>empresas</palabraClave>
+    <anio>2017</anio> 
+    
+    </articulo>
+	
+	<articulo isbn="ABSK73499205750" paginaI="7" paginaF="8">
+	<nombreRevista>El Pais</nombreRevista>
+	<numeroRevista>1</numeroRevista>
+    <contenido>El juez a cargo del proceso penal contra Joaquín “El Chapo” Guzmán ha autorizado que el narcotraficante sea sometido a una evaluación 
+	psicológica para determinar cómo las condiciones de su reclusión está afectando a su estado mental.
+	El magistrado Brian Cogan estableció, sin embargo, que no puede haber contacto físico en el examen. La prueba pueda realizarse la semana próxima.</contenido>
+	<titulo>El juez Cogan autoriza que ‘El Chapo’ se someta a una prueba psicológica</titulo>
+    <autor correoElectro="pozzi@gmail.com">Sandro Pozzi</autor>
+    <resumen>El nuevo abogado del narcotraficante asegura que las condiciones de reclusión están afectando a su estado mental y complicar su defensa</resumen>
+    <palabraClave>chapo</palabraClave>
+	<palabraClave>droga</palabraClave>
+	<palabraClave>carcel</palabraClave>
+    <anio>2016</anio> 
+    
+    </articulo>
+	
+	
+	<articulo isbn="ABSK734992054540" paginaI="6" paginaF="7">
+	<nombreRevista>El Mundo</nombreRevista>
+	<numeroRevista>1550</numeroRevista>
+    <contenido>Luis Bárcenas guardaba silencio por el apoyo que le prestó personalmente el presidente. Mariano Rajoy mantuvo un contacto directo y permanente (como mínimo, de mayo de 2011 a marzo de 2013) con el ex tesorero y le pidió que negara la contabilidad B y los sobresueldos. Así lo atestiguan los SMS que se intercambiaron y numerosas conversaciones, telefónicas o cara a cara. En esta relación también participó Rosalía Iglesias, mujer del ex tesorero. 
+	En estos SMS se observa cómo en 2012 Rajoy intentó calmar a su interlocutor cuando las cosas se pusieron feas: "Luis, nada es fácil, pero hacemos lo que podemos. Ánimo". Y, ya en 2013, exactamente el día en que EL MUNDO destapó el escándalo de los sobresueldos y 48 horas después de conocerse las cuentas suizas, el presidente instó a Bárcenas a "ser fuerte" y le expresó su
+	comprensión.</contenido>
+	<titulo>Los SMS entre Rajoy y Bárcenas</titulo>
+    <autor correoElectro="inda@gmail.com">Eduardo Inda</autor>
+    <resumen>El presidente mantuvo contacto directo y permanente con el ex tesorero</resumen>
+    <palabraClave>pp</palabraClave>
+	<palabraClave>barcenas</palabraClave>
+	<palabraClave>corrupcion</palabraClave>
+    <anio>2013</anio> 
+    
+    </articulo>
+	
+	<articulo isbn="ABSK734992085940" paginaI="10" paginaF="15">
+	<nombreRevista>El Mundo</nombreRevista>
+	<numeroRevista>1553</numeroRevista>
+    <contenido>"Los servicios secretos cubanos asesinaron a Oswaldo Payá". Así se ha expresado Ángel Carromero en exclusiva a EL MUNDO un año después de la muerte del líder opositor cubano.
+El vicesecretario de Nuevas Generaciones del Partido Popular de Madrid ha decidido romper su silencio cuando apenas se acaba de cumplir el aniversario de aquel fatídico 22 de julio. Ese día, cerca de la localidad cubana de Bayamo, se salió de la carretera el coche en el que viajaban Carromero, el político sueco Aron Modig y los disidentes cubanos Payá y Harold Cepero. Estos dos últimos fallecieron.
+Ahora, Carromero rememora para este periódico -con todo tipo de detalles- lo acontecido esa jornada y posteriores, sentenciando que Payá "salió vivo del accidente" y que la versión oficial de La Habana de presentar el suceso como un siniestro por exceso de velocidad fue "una coartada perfecta para ocultar la muerte del único opositor que podía liderar la transición en Cuba".</contenido>
+	<titulo>Los servicios secretos cubanos asesinaron a Oswaldo Payá</titulo>
+    <autor correoElectro="galvan@gmail.com">Rocío Galván</autor>
+    <resumen>El vicesecretario de Nuevas Generaciones del PP rompe su silencio</resumen>
+    <palabraClave>pp</palabraClave>
+	<palabraClave>asesinato</palabraClave>
+	<palabraClave>cuba</palabraClave>
+    <anio>2013</anio> 
+    
+    </articulo>
+	
+	<articulo isbn="ABSK7964992085940" paginaI="11" paginaF="19">
+	<nombreRevista>El Pais</nombreRevista>
+	<numeroRevista>1553</numeroRevista>
+    <contenido>El presidente del Tribunal Constitucional, Francisco Pérez de los Cobos, está incluido en el listado de donantes y afiliados del PP entre 2008 y 2011, cuyas aportaciones sirven para sufragar los gastos del partido. De los Cobos fue elegido magistrado del alto tribunal el 29 de diciembre de 2010.
+
+El listado en el que aparece De los Cobos está en un documento que forma parte del sumario del caso Bárcenas, y en el mismo se señala tanto el nombre de la persona que contribuyó a la financiación del partido como el número de su Documento Nacional de Identidad y la cantidad aportada. En el caso del presidente del alto tribunal fueron 37,14 euros por año, cantidad que, según varios afiliados consultados, coincide exactamente con la cuota mínima que paga los militantes populares en la ciudad de Barcelona.</contenido>
+	<titulo>El presidente del Constitucional pagó cuotas de militante del PP</titulo>
+    <autor correoElectro="fibra@gmail.com">MARÍA FABRA</autor>
+    <resumen>Pérez de los Cobos hizo el abono al partido en 2011 cuando ya era magistrado
+La Constitución prohíbe la afiliación política y exige “total independencia”</resumen>
+    <palabraClave>pp</palabraClave>
+	<palabraClave>juez</palabraClave>
+	<palabraClave>españa</palabraClave>
+    <anio>2013</anio> 
+    
+    </articulo>
+	
+	<articulo isbn="ABSK796499288885940" paginaI="11" paginaF="19">
+	<nombreRevista>El Pais</nombreRevista>
+	<numeroRevista>163</numeroRevista>
+    <contenido>En un auto sin precedentes, cinco militares españoles han sido acusados de violar las leyes y usos de la guerra. La titular del Juzgado Militar Territorial número 12 ha procesado a cinco miembros o exmiembros de la Legión por un delito de torturas —que el Código Penal Militar castiga con 10 a 25 años de prisión— cometido en 2004 contra dos prisioneros en el centro de detención de Base España, en Irak. Los procesados son un capitán, ahora destinado en el Centro Nacional de Inteligencia (CNI), dos cabos (uno destinado en la Legión y otro en la Guardia Civil) y dos guardias civiles (legionarios en aquel momento).
+
+
+Según el auto de procesamiento, los hechos tuvieron lugar “en fecha no determinada”, pero comprendida entre el 22 de enero y el 18 de febrero de 2004, cuando un grupo de militares, de los que se ha podido identificar a cinco, aprovechando el turno de descanso de la guardia nocturna, acudieron a la celda donde se encontraban detenidos dos iraquíes, “con el fin de humillarlos” en venganza por la tensión continua derivada de los ataques y atentados sufridos por el contingente español en Irak.</contenido>
+	<titulo>Cinco militares españoles procesados por torturar a prisioneros en Irak</titulo>
+    <autor correoElectro="migon@gmail.com">MIGUEL GONZÁLEZ</autor>
+    <resumen>La juez castrense acusa a un capitán del CNI, tres guardias civiles y un legionario</resumen>
+    <palabraClave>ejercito</palabraClave>
+	<palabraClave>irak</palabraClave>
+	<palabraClave>españa</palabraClave>
+    <anio>2014</anio> 
+    
+    </articulo>
+	
+</articulos>

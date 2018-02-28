@@ -1,0 +1,21 @@
+
+h1{
+    text-align:center;
+    color:red;
+}
+p{
+    margin-bottom: 1%;
+    margin-bottom: 1%;
+}
+p{
+    text-align:center;
+}
+
+input[type=button]{
+    font-size: 175%;
+    width: 6%;
+}
+input[type=text]{
+    font-size: 150%;
+    width: 25%;
+}

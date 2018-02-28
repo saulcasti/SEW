@@ -1,0 +1,11 @@
+Se ha utilizado Java en Eclipse Oxygen.
+Las instruciones son:
+	1. Se introducen los datos del trabajo, y se añade a la factura.
+	2. Una vez añadidos todos los trabajos a la factura, se pulsa cerrar factura.
+	3. Se completa el campo de dirección y se pulsa en terminar, se preguntará si se
+	quiere añadir mas facturas al .xml, si la respuesta es no, se preguntará el nombre del .xml.
+	Si la respuesta es sí, te enseña la pantalla de añadir trabajo, y el proceso sería el mismo que 
+	lo anteriormente mencionado.
+
+Los archivos .xml generados de ejemplo son: factura.xml y facturaPrueba.xml, en el primer caso solo contiene 
+una factura, y en el segundo dos.

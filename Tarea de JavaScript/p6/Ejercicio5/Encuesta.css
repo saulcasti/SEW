@@ -1,0 +1,30 @@
+body{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+h1{
+    text-align:left;
+    color:#292929;
+    margin-bottom: 5%;
+}
+ul li {
+    color: #292929;
+    list-style:circle;
+    text-align:left;
+    
+}
+p{
+     color:#000000; 
+    font: 200 100% Aria, sans-serif;
+}
+input:nth-last-child(2){
+    width: 1%;
+}
+button{
+    width: 20%;
+
+}
+footer{
+   margin-top: 10%; 
+    text-align: right;
+}

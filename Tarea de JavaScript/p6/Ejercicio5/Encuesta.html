@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>P6-T5</title>
+<link rel="stylesheet" href="Encuesta.css">
+ <script src="Encuesta.js"></script>
+</head>
+<body onload="cuestionario.rellenarEdad()">
+     
+    <h1>P6 - Ejercio 5: Encuesta sobre Calculadora</h1>
+    <form>
+        <p>- Introduzca los siguientes datos:</p>
+        <ul>
+            <li><p>Nombre:  <input type="text" id="nombre" /></p></li>
+            <li><p>Apellidos:  <input type="text" id="apellido" /></p></li>
+            <li><p>Email:  <input type="email" id="email" /></p></li>
+            <li><p>Sexo:  
+                <select id="sexo" >
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </p></li>
+
+            <li><p>Edad: <select id="edad" ></select>
+                </p>
+            </li>
+        </ul>
+        <p>- ¿Cómo de comoda es la web?(1 muy incomoda, 10 muy comoda): </p>
+           <p><input type="radio" name="valoracionComodidad" value="1"/> 1
+             <input type="radio" name="valoracionComodidad" value="2"/> 2
+             <input type="radio" name="valoracionComodidad" value="3"/> 3
+             <input type="radio" name="valoracionComodidad" value="4"/> 4
+             <input type="radio" name="valoracionComodidad" value="5" CHECKED/> 5
+             <input type="radio" name="valoracionComodidad" value="6"/> 6
+             <input type="radio" name="valoracionComodidad" value="7"/> 7
+             <input type="radio" name="valoracionComodidad" value="8"/> 8
+             <input type="radio" name="valoracionComodidad" value="9"/> 9
+             <input type="radio" name="valoracionComodidad" value="10"/> 10
+        </p>
+        <p>- ¿Cómo es la estetica de la web?(1 muy mala, 10 muy buena): </p>
+            <p><input type="radio" name="valoracionEstetica" value="1"/> 1
+             <input type="radio" name="valoracionEstetica" value="2"/> 2
+             <input type="radio" name="valoracionEstetica" value="3"/> 3
+             <input type="radio" name="valoracionEstetica" value="4"/> 4
+             <input type="radio" name="valoracionEstetica" value="5" CHECKED/> 5
+             <input type="radio" name="valoracionEstetica" value="6"/> 6
+             <input type="radio" name="valoracionEstetica" value="7"/> 7
+             <input type="radio" name="valoracionEstetica" value="8"/> 8
+             <input type="radio" name="valoracionEstetica" value="9"/> 9
+             <input type="radio" name="valoracionEstetica" value="10"/> 10
+        </p>
+        <p>- ¿Ha podido realizar todas las acciones que quería?(1 ninguna, 10 todas): </p>
+            <p><input type="radio" name="valoracionFuncionalidad" value="1"/> 1
+             <input type="radio" name="valoracionFuncionalidad" value="2"/> 2
+             <input type="radio" name="valoracionFuncionalidad" value="3"/> 3
+             <input type="radio" name="valoracionFuncionalidad" value="4"/> 4
+             <input type="radio" name="valoracionFuncionalidad" value="5" CHECKED/> 5
+             <input type="radio" name="valoracionFuncionalidad" value="6"/> 6
+             <input type="radio" name="valoracionFuncionalidad" value="7"/> 7
+             <input type="radio" name="valoracionFuncionalidad" value="8"/> 8
+             <input type="radio" name="valoracionFuncionalidad" value="9"/> 9
+             <input type="radio" name="valoracionFuncionalidad" value="10"/> 10
+        </p>
+        
+        <p>- ¿Recomedaría esta calculadora?<input type="checkbox" id="recomendaria"/></p>
+        <p><input type="checkbox" id="acepto"/>Estoy de acuerdo con los terminos y condiciones</p>
+        <p>
+            <button type="submit" onclick="cuestionario.formatoEmail()">Enviar</button>
+        </p>
+  </form>
+    
+    
+<footer>
+<a href="https://validator.w3.org/check?uri=referer"><img
+          src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+          alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+</footer>
+</body>
+</html>

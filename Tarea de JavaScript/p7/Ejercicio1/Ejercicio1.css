@@ -1,0 +1,23 @@
+
+h1{
+    text-align:center;
+    color:red;
+}
+h2{
+    text-align:center;
+    color:#0050e8;
+}
+h3{
+    text-align:center;
+    color:#e8aa00;
+}
+p{
+    text-align: center;
+     color:#000000; 
+    font: 200 100% Aria, sans-serif;
+}
+
+button{
+    width: 20%;
+     background:#ffffff; 
+}

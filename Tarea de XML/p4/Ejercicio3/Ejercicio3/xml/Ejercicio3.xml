@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ejercicio3 SYSTEM "Ejercicio3.dtd">
+<artistas>
+	<artista>
+		<nombre>Love of Lesbian</nombre>
+		<numeroMiembros>5</numeroMiembros>
+		<concierto fecha="2016/04/30" ciudad="Barcelona" gira="Poeta Halley">Razzmatazz</concierto>
+		<concierto fecha="2016/05/06" ciudad="Murcia" gira="Poeta Halley">Sala Tito</concierto>
+		<concierto fecha="2016/05/07" ciudad="Sevilla" gira="Poeta Halley">Sala Antique Theatro</concierto>
+		<concierto fecha="2016/05/13" ciudad="Salamanca" gira="Poeta Halley">Multiusos Sanchez Paraíso</concierto>
+		<concierto fecha="2016/05/14" ciudad="Ourense" gira="Poeta Halley">Pazo dos Deportes Paco Paz</concierto>
+		<concierto fecha="2016/07/08" ciudad="Bilbao" gira="Poeta Halley">Sala Pachi</concierto>
+		<concierto fecha="2016/07/16" ciudad="Nigrán" gira="Poeta Halley">Pazo U</concierto>
+		<concierto fecha="2017/03/03" ciudad="Oviedo" gira="Poeta Halley 2.0">Sala Estilo</concierto>
+		<concierto fecha="2017/03/17" ciudad="Barcelona" gira="Poeta Halley 2.0">Sala Capitol</concierto>
+		<concierto fecha="2017/11/24" ciudad="Barcelona" gira="Poeta Halley 2.0">St. Jordi Club</concierto>
+	</artista>
+	
+	<artista>
+		<nombre>Vetusta Morla</nombre>
+		<numeroMiembros>6</numeroMiembros>
+		<concierto fecha="2015/04/25" ciudad="Barcelona" gira="Deriva">Sant Jordi Club</concierto>
+		<concierto fecha="2015/05/01" ciudad="Bilbao" gira="Deriva">BEC</concierto>
+		<concierto fecha="2015/05/09" ciudad="Sevilla" gira="Deriva">Auditorio Rocío Jurado</concierto>
+		<concierto fecha="2015/05/13" ciudad="Valencia" gira="Deriva">Feria de Muestras</concierto>
+		<concierto fecha="2016/06/31" ciudad="Benidorm" gira="Deriva">Low Festival</concierto>
+		<concierto fecha="2017/11/25" ciudad="Guadalajara" gira="Mismo Sitio">Feria internacional del Libro</concierto>
+		<concierto fecha="2018/04/28" ciudad="Salamanca" gira="Mismo Sitio">Multiusos Sánchez Paraíso</concierto>
+		<concierto fecha="2018/05/03" ciudad="Murcia" gira="Mismo Sitio">Recinto Ferial De La Finca</concierto>
+		<concierto fecha="2018/05/19" ciudad="Barcelona" gira="Mismo Sitio">Palau Sant Jordi</concierto>
+		<concierto fecha="2018/06/23" ciudad="Madrid" gira="Mismo Sitio">Explanada Exteriro Caja Mágica</concierto>
+	</artista>
+</artistas>

@@ -1,0 +1,33 @@
+
+h1{
+    text-align:center;
+    color:red;
+}
+h2{
+    text-align:center;
+    color:#0050e8;
+}
+h3{
+    text-align:center;
+    color:#e8aa00;
+}
+p{
+    text-align: center;
+     color:#000000; 
+    font: 200 100% Aria, sans-serif;
+     
+}
+
+button{
+    width: 10%;
+     background:#ffffff; 
+}
+#addMoneda{
+    width: 20%;
+}
+#addN{
+   font: 200 80% Aria, sans-serif; 
+}
+input{
+    text-align: center;
+}

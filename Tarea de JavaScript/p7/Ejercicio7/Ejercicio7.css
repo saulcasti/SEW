@@ -1,0 +1,20 @@
+h1{
+    color:#13cec0;
+    font-size: 250%;
+}
+#map {
+    height: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    margin-left: 2%;
+    margin-right: 2%;
+    font: 200 100% "Aria", sans-serif;
+}
+button{
+    margin-top: 1%;
+    margin-bottom: 1%
+}

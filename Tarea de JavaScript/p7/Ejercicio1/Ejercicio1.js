@@ -1,0 +1,78 @@
+  $(document).ready(function(){
+  $("#ocultarParrafos").click(function(){
+    $(".EliminableP").hide();
+  });
+  $("#mostrarParrafos").click(function(){
+    $(".EliminableP").show();
+  });
+  $("#ocultarTitulos1").click(function(){
+    $("h1").hide();
+  });
+  $("#mostrarTitulos1").click(function(){
+    $("h1").show();
+  });
+  $("#ocultarTitulos2").click(function(){
+    $("h2").hide();
+  });
+  $("#mostrarTitulos2").click(function(){
+    $("h2").show();
+  });
+    $("#ocultarTitulos3").click(function(){
+    $("h3").hide();
+  });
+  $("#mostrarTitulos3").click(function(){
+    $("h3").show();
+  });
+$("#CambiarTitulos1").click(function(){
+    $("h1").text($("#cambiarT1").val());
+  });
+$("#CambiarTitulos2").click(function(){
+    $("h2").text($("#cambiarT2").val());
+  });
+$("#CambiarTitulos3").click(function(){
+    $("h3").text($("#cambiarT3").val());
+  });
+$("#CambiarParrafos").click(function(){
+    $(".EliminableP").text($("#cambiarP").val());
+  });
+$("#addTitulo4").click(function(){
+    $("#aPartirDeEste").append("<h4>Hola</h4>");
+  });
+$("#addLista").click(function(){
+    $("#aPartirDeEste2").append("<ul><li>Hola</li><li>Mundo</li></ul>");
+  });
+$("#EliminarParrafos").click(function(){
+    $(".EliminableP").remove();
+    $("#mostrarParrafos").remove();
+    $("#ocultarParrafos").remove();
+    $("#CambiarParrafos").remove();
+    $("#cambiarP").remove();
+  });
+$("#EliminarTitulos1").click(function(){
+    $("h1").remove();
+    $("#mostrarTitulos1").remove();
+    $("#ocultarTitulos1").remove();
+    $("#CambiarTitulos1").remove();
+    $("#cambiarT1").remove();
+  });
+$("#EliminarTitulos2").click(function(){
+    $("h2").remove();
+    $("#mostrarTitulos2").remove();
+    $("#ocultarTitulos2").remove();
+    $("#CambiarTitulos2").remove();
+    $("#cambiarT2").remove();
+  });
+$("#EliminarTitulos3").click(function(){
+    $("h3").remove();
+    $("#mostrarTitulos3").remove();
+    $("#ocultarTitulos3").remove();
+    $("#CambiarTitulos3").remove();
+    $("#cambiarT3").remove();
+  });
+$("#MostrarPadres").click(function(){
+    $("*", document.body).each(function() {
+        var etiquetaPadre = $(this).parent().get(0).tagName;
+        $(this).prepend(document.createTextNode( "Etiqueta padre : <"  + etiquetaPadre + "> tipo : <" + $(this).get(0).tagName +"> valor: "));
+        });
+    });
+});

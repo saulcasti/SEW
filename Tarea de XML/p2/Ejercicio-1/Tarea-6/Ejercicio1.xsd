@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/Ejercicio1" elementFormDefault="qualified" targetNamespace="http://tempuri.org/Ejercicio1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="articulos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="articulo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="articulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreRevista" />
+        <xs:element ref="numeroRevista" />
+        <xs:element ref="contenido" />
+        <xs:element ref="titulo" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="autor" />
+        <xs:element ref="resumen" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="palabraClave" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="anio" />
+      </xs:sequence>
+      <xs:attribute name="isbn" type="xs:ID" use="required" />
+      <xs:attribute name="paginaI" type="xs:string" use="required" />
+      <xs:attribute name="paginaF" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contenido" type="xs:string" />
+  <xs:element name="titulo" type="xs:string" />
+  <xs:element name="autor">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="correoElectro" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="resumen" type="xs:string" />
+  <xs:element name="palabraClave" type="xs:string" />
+  <xs:element name="numeroRevista" type="xs:string" />
+  <xs:element name="nombreRevista" type="xs:string" />
+  <xs:element name="anio" type="xs:string" />
+</xs:schema>

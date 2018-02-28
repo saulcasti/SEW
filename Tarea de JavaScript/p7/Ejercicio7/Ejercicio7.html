@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejercicio 7</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADWvfSWkpNCyJJwc8sPNAKRwqR0n7vdAk"></script>
+    <script src="Ejercicio7.js"></script>
+    <link rel="stylesheet" href="Ejercicio7.css"/>
+  </head>
+  <body onload="mapa.inicializar()">
+    <h1>Dibuja una figura en el mapa</h1>
+    <p>Seleccione la forma a dibujar:
+        <select id="forma">
+            <option value="cuadrado">Cuadrilatero</option>
+            <option value="triangulo">Triangulo</option>
+            <option value="rectangulo">Rectangulo</option>
+        </select>
+    </p>
+    <p>Seleccione el color:
+        <select id="color">
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+            <option value="yellow">Amarillo</option>
+            <option value="green">Verde</option>
+        </select>
+    </p>
+    <h3>¿Cómo quiere seleccionar el primer vertice?</h3>
+    <p><input type="radio" name="modoDibujar" value="aMano" onclick="mapa.aMano()"/> Introducir a mano
+       <input type="radio" name="modoDibujar" value="selectCity" onclick="mapa.selectCity()"/> Seleccionar ciudad
+    </p>
+    <div id="sinOpciones" display="none"> 
+        <p>Latitud: <input type=text id="lat"/></p>
+        <p>Longitud: <input type=text id="lng"/></p>
+        <p>**Si introduce valores inadecuados no se mostrará nada en el mapa**</p>
+    </div>
+    
+    <div id="conOpciones" display="none"> 
+        Seleccione ciudad:
+        <select id="city">
+            <option value="40.426894,-3.683667">Madrid</option>
+            <option value="51.507469,-0.127010">London</option>
+            <option value="43.657814,-79.380099">Toronto</option>
+            <option value="55.762239,37.622082">Moscú</option>
+        </select>
+    </div>
+    <button id="pintar" onclick="mapa.pintarMapa()" display="none">Mostrar Mapa</button>
+    
+    <div id="map"></div>
+      
+<footer>
+<a href="http://validator.w3.org/check/referer" hreflang="en-us"> <img src="valid-html5-button.png" alt="¡HTML5 válido!"/></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS válido!" /></a>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio 2</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="UO251370" /> 
+    <link href="Ejercicio2.css" rel="stylesheet" />
+</head>
+    
+<body>
+    
+    <header>
+        <h1>Ejercicio 2</h1>
+        
+        <nav>
+            <a href="Ejercicio2.html">INICIO</a>
+            <a href="Ejercicio2_createDB.php">CREAR BD</a>
+            <a href="Ejercicio2_createTable.php">CREAR TABLA</a>
+            <a href="Ejercicio2_insert.html">INSERTAR</a>
+            <a href="Ejercicio2_remove.html">BORRAR</a>
+            <a href="Ejercicio2_search.html">BUSCAR</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Introducir Datos</h2>
+        <form id='insert' method="post" action="Ejercicio2_insert.php">
+            <p>Nombre:<input type="text" name="name"></p>
+            <p>Especie:<input type="text" name="species"></p>
+            <p>Tamaño:<input type="text" name="size"></p>
+            <p>Identificador de animal:<input type="text" name="animalID"></p>
+        <input type="submit" value="Insertar">
+        </form>
+    </section>
+
+</body>
+</html>

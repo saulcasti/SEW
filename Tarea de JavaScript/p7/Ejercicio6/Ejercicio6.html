@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio 6 - Conversor de monedas</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="Ejercicio6.css"/>
+<script src="Ejercicio6.js"></script>
+</head>
+<body onload="cambioMoneda.cargarDatos(cambioMoneda.monedas)">
+<h1>Conversor de monedas</h1>
+<p><input type="text" id="CantidadIntroducida"/>  <select id="monedasIntroducidas"></select></p>
+<p id="resultado"><button onclick = "cambioMoneda.pasarDeXaY()">Pasar a</button> <select id="monedas"></select></p>
+<p id="cifraFinal"></p>
+<p id="Aviso">**Cifra redondeada a dos decimales**</p>
+<p id="addN">Introduzca las siglas de la moneda:  <input type="text" id="nuevasIniciales"/> <button id="addMoneda" onclick = "cambioMoneda.addNuevaMoneda()">Añadir nueva moneda</button></p>
+<footer>
+<a href="http://validator.w3.org/check/referer" hreflang="en-us"> <img src="valid-html5-button.png" alt="¡HTML5 válido!"/></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS válido!" /></a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+h1{
+    text-align:center;
+    color:red;
+}
+h2{
+    text-align:center;
+    color:#0050e8;
+}
+h3{
+    text-align:center;
+    color:#e8aa00;
+}
+p{
+    text-align: center;
+     color:#000000; 
+    font: 200 100% Aria, sans-serif;
+     
+}
+
+button{
+    width: 20%;
+     background:#ffffff; 
+}
+.money{
+    height:30%;
+    width:15%;
+    position:absolute;
+    left:12%;
+    top: 25%;
+}
+
+#ocultarTodoIsla{
+    height:100px;
+    width:200px;
+    position:absolute;
+    right: 7%;
+    top: 30%;
+    visibility:hidden
+}
+
+#cajon{
+    height:30%;
+    width:15%;
+    position:absolute;
+    left:35%;
+    top: 60%;
+    display: none
+}
+
+#armario{
+    height:30%;
+    width:15%;
+    position:absolute;
+    left:12%;
+    top: 60%;
+}
+#collar{
+    height:30%;
+    width:15%;
+    position:absolute;
+    left:57%;
+    top: 60%;
+    display: none
+}
+#reloj{
+    height:30%;
+    width:15%;
+    position:absolute;
+    left:57%;
+    top: 60%;
+    display: none
+}
+
+#ocultarTodoArmario{
+    height:100px;
+    width:200px;
+    position:absolute;
+    right: 7%;
+    top: 65%;
+    visibility:hidden
+}
+footer{
+    position:fixed;
+    bottom: 0%;
+    right: 40%;
+}

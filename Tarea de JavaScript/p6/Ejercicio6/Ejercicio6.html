@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>P6-T5</title>
+<link rel="stylesheet" href="Ejercicio6.css">
+ <script src="Ejercicio6.js"></script>
+</head>
+<body onload="adivina.borrar()">
+     
+    <h1>P6 - Ejercio 6: Adivina la marca</h1>
+        <h2>¿Cómo quieres jugar?</h2>
+           <p> <input type="radio" name="modoJuego" value="conOpciones" onclick="adivina.habilitarCon()"/> Con Opciones
+             <input type="radio" name="modoJuego" value="SinOpciones" onclick="adivina.habilitarSin()"/> Sin Opciones
+        </p>
+    <img src="http://pngimg.com/uploads/mercedes_logos/mercedes_logos_PNG18.png" alt="MarcaCoche" title="MarcaCoche" height="300" width="300" id="mercedesImg"/>
+    <p id="mercedesLinea"><input type="text" id="mercedes"/></p>
+    <p id="mercedesOpc"> 
+        <input type="radio" id="mercedesO1" name="mercedesOp"/> Mercedes 
+        <input type="radio" id="mercedesO2" name="mercedesOp"/>Volvo 
+    
+    </p>
+    <p><img src="https://userscontent2.emaze.com/images/ecf71890-9c7c-451c-a881-9477eafbf47b/dffad37d05e00cfe6cb0301d3d5b7f9d.png" alt="OK" height="50" width="50" id="OKmerce" display="none"/>
+    
+        <img src="https://vignette1.wikia.nocookie.net/mangafree/images/b/ba/X_roja.png/revision/latest?cb=20131005145706&path-prefix=es" alt="MAL" height="50" width="50" id="MALmerce" display="none"/></p>
+    
+     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Chanel_logo-no_words.svg/1280px-Chanel_logo-no_words.svg.png" alt="MarcaRopaFrancesa" title="MarcaRopaFrancesa" height="200" width="300" id="cCImg"/>
+    <p id="cCLinea"><input type="text" id="cC"/></p>
+    <p id="cCOpc"> 
+        <input type="radio" id="cCOp1" name="cCOp"/> DC 
+        <input type="radio" id="cCOp2" name="cCOp"/>Coco Chanel
+    </p>
+    <p> <img src="https://userscontent2.emaze.com/images/ecf71890-9c7c-451c-a881-9477eafbf47b/dffad37d05e00cfe6cb0301d3d5b7f9d.png" alt="OK" height="50" width="50" id="OKcc" display="none"/>
+        
+        <img src="https://vignette1.wikia.nocookie.net/mangafree/images/b/ba/X_roja.png/revision/latest?cb=20131005145706&path-prefix=es" alt="MAL" height="50" width="50" id="MALcc" display="none"/></p>
+    
+     <img src="https://i.pinimg.com/originals/79/4d/f6/794df670118372236240b0690b76b0af.jpg" alt="MarcaRopaitaliana" title="MarcaRopaitaliana" height="300" width="225" id="ePImg"/>
+    <p id="ePLinea"><input type="text" id="eP"/></p>
+    <p id="ePOpc"> 
+        <input type="radio" id="ePOp1" name="ePOp"/> Zara 
+        <input type="radio" id="ePOp2" name="ePOp"/>Emilio Pucci
+    </p>
+    <p>        <img src="https://userscontent2.emaze.com/images/ecf71890-9c7c-451c-a881-9477eafbf47b/dffad37d05e00cfe6cb0301d3d5b7f9d.png" alt="OK" height="50" width="50" id="OKeP" display="none"/>
+        
+        <img src="https://vignette1.wikia.nocookie.net/mangafree/images/b/ba/X_roja.png/revision/latest?cb=20131005145706&path-prefix=es" alt="MAL" height="50" width="50" id="MALeP" display="none"/>
+    </p>
+    
+    
+    <img src="https://www.diffusionsport.com/wp-content/uploads/2015/06/quiksilverLogo.jpg" alt="MarcaRopaUSA" title="MarcaRopaUSA" height="200" width="300" id="USAImg"/>
+    <p id="USALinea"><input type="text" id="USA"/></p>
+    <p id="USAOpc"> 
+        <input type="radio" id="USAOp1" name="USAOp"/>Quiksilver 
+        <input type="radio" id="USAOp2" name="USAOp"/> Volcom
+    </p>
+    <p>        <img src="https://userscontent2.emaze.com/images/ecf71890-9c7c-451c-a881-9477eafbf47b/dffad37d05e00cfe6cb0301d3d5b7f9d.png" alt="OK" height="50" width="50" id="OKUSA" display="none"/>
+        
+        <img src="https://vignette1.wikia.nocookie.net/mangafree/images/b/ba/X_roja.png/revision/latest?cb=20131005145706&path-prefix=es" alt="MAL" height="50" width="50" id="MALUSA" display="none"/></p>
+    
+    <p>
+            <button onclick="adivina.comprobar()" id="comp">Comprobar</button>
+        </p>
+    
+<footer>
+<a href="https://validator.w3.org/check?uri=referer"><img
+          src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+          alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+</footer>
+</body>
+</html>

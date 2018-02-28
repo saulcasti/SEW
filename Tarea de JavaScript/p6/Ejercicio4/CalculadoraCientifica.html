@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>P6-T4</title>
+<link rel="stylesheet" href="CalculadoraCientifica.css">
+<script src="CalculadoraCientifica.js"></script>
+</head>
+<body onload="calculadora.load()">
+     
+    <h1>P6 - Ejercio 4: Calculadora Científica</h1>
+    <p><input type="text" name="cuenta"/></p>
+    <p><input type="text" name="resultado"/></p>
+    
+     <p>
+        <input type="button" value="x&sup2" onclick="calculadora.cuentaCient('cuadrado')"/>
+        <input type="button" value="x^y" onclick="calculadora.addNuevo('**')"/>
+        <input type="button" value="sin" onclick="calculadora.cuentaCient('seno')"/>
+        <input type="button" value="con" onclick="calculadora.cuentaCient('coseno')"/>
+         <input type="button" value="tan" onclick="calculadora.cuentaCient('tangente')"/>
+    </p>
+     <p>
+        <input type="button" value="&#8730;" onclick="calculadora.cuentaCient('raizCuadrada')"/>
+        <input type="button" value="10^x" onclick="calculadora.cuentaCient('diezElevadoX')"/>
+        <input type="button" value="log" onclick="calculadora.cuentaCient('log10')"/>
+        <input type="button" value="e^x" onclick="calculadora.cuentaCient('eElevadoX')"/>
+         <input type="button" value="%" onclick="calculadora.addNuevo('%')"/>
+    </p>
+    <p>
+        <input type="button" value="n!" onclick="calculadora.cuentaCient('n!')"/>
+        <input type="button" value="mrc" onclick="calculadora.mrc()"/>
+        <input type="button" value="m-" onclick="calculadora.mMenos()"/>
+        <input type="button" value="m+" onclick="calculadora.mMas()"/>
+        <input type="button" value="/" onclick="calculadora.addNuevo('/')"/>
+    </p>
+    <p>
+        <input type="button" value="+/-" onclick="calculadora.cuentaCient('cambioSigno')"/>
+        <input type="button" value="7" onclick="calculadora.addNuevo('7')"/>
+        <input type="button" value="8" onclick="calculadora.addNuevo('8')"/>
+        <input type="button" value="9" onclick="calculadora.addNuevo('9')"/>
+        <input type="button" value="x" onclick="calculadora.addNuevo('*')"/>
+    </p>
+    
+     <p>
+        <input type="button" value="(" onclick="calculadora.addParentesisA()"/>
+        <input type="button" value="4" onclick="calculadora.addNuevo('4')"/>
+        <input type="button" value="5" onclick="calculadora.addNuevo('5')"/>
+        <input type="button" value="6" onclick="calculadora.addNuevo('6')"/>
+         <input type="button" value="-" onclick="calculadora.addNuevo('-')"/>
+    </p>
+    
+    <p>
+        <input type="button" value=")" onclick="calculadora.addParentesisC()"/>
+        <input type="button" value="1" onclick="calculadora.addNuevo('1')"/>
+        <input type="button" value="2" onclick="calculadora.addNuevo('2')"/>
+        <input type="button" value="3" onclick="calculadora.addNuevo('3')"/>
+        <input type="button" value="+" onclick="calculadora.addNuevo('+')"/>
+    </p>
+   
+    
+    <p>
+        <input type="button" value="C" onclick="calculadora.borrar()"/>
+        <input type="button" value="DEL" onclick="calculadora.borrarTodo()"/>
+        <input type="button" value="0" onclick="calculadora.addNuevo('0')"/>
+        <input type="button" value="," onclick="calculadora.addNuevo('.')"/>
+        <input type="button" value="=" onclick="calculadora.calcular()"/>
+    </p>
+    
+    
+     
+<footer>
+<a href="https://validator.w3.org/check?uri=referer"><img
+          src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+          alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+</footer>
+</body>
+</html>
